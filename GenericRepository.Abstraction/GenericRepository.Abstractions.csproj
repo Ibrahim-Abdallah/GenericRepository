@@ -1,13 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>GenericRepository.Abstractions</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>IbrahimAlkholy</Authors>
+	  <Description>Abstractions for a generic repository pattern. Includes interfaces for read, write, specification, paging, bulk operations, and auditing.</Description>
+	  <PackageTags>repository abstraction generic specification cleanarchitecture ddd</PackageTags>
+	  <RepositoryUrl>https://github.com/Ibrahim-Abdallah/GenericRepository.git</RepositoryUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="README.md~RF141ff6a6.TMP" />
+	<None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
-
 </Project>
