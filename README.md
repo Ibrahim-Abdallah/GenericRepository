@@ -41,7 +41,7 @@ Supports Specification Pattern, Soft Delete, Paging, and Bulk Operations with EF
 
 ```bash
 dotnet add package GenericRepository.Abstractions
-dotnet add package GenericRepository.EFCore
+dotnet add package GenericRepository.EFCore9
 ```
 
 ---
