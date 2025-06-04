@@ -153,7 +153,7 @@ public class ApplicationDbContext : DbContext
     }
 }
 
-public class ProductByCategorySpecification() : Specification<ProductByCategory>
+public class ProductByCategorySpecification() : Specification<Product>
 {
     public ProductByCategorySpecification(string category)
     {
